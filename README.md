@@ -1,2 +1,9 @@
 # Circles
 Solution for a Concurrent Programming assignment.
+
+In short, the goal of the assignment is to draw 'c' amount of random circles of max radius 'r' on a 1920px by 1080px image using to threads concurrently, while also avoiding data races.
+
+View assignment details in [assig1.pdf](assig1.pdf).
+
+The following image is an example png generated from [Main.java](/src/Main.java) with parameters c = 300 and r = 80px.
+![Random Circles](circles.png)
